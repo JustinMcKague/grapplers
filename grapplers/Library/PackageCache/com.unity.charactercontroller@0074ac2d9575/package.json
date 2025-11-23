@@ -1,0 +1,41 @@
+{
+  "name": "com.unity.charactercontroller",
+  "displayName": "Character Controller",
+  "version": "1.3.12",
+  "unity": "2022.3",
+  "unityRelease": "50f1",
+  "description": "This package provides a customizable character controller solution for Entities. \n\n Navigate to the \"Samples\" tab in order to download the \"Standard Characters\", which serve as a starting point for implementing your own characters.",
+  "dependencies": {
+    "com.unity.entities": "1.3.14",
+    "com.unity.physics": "1.3.14",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.modules.physics": "1.0.0"
+  },
+  "keywords": [
+    "unity",
+    "character",
+    "controller",
+    "physics",
+    "rival"
+  ],
+  "samples": [
+    {
+      "displayName": "Standard Characters",
+      "description": "Starter assets for first-person and third-person characters",
+      "path": "Samples~/StandardCharacters"
+    }
+  ],
+  "_upm": {
+    "changelog": "### Fixed\n* Fixed incorrect center of mass evaluation in `PhysicsUtilities.SolveCollisionImpulses`"
+  },
+  "upmCi": {
+    "footprint": "27acdb059dfab6abf91af9fbef16aba0c768687d"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.charactercontroller@1.3/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/dots.git",
+    "type": "git",
+    "revision": "025777f7bdf144acfb5ed190b9a5afd6d9e8d04a"
+  },
+  "_fingerprint": "0074ac2d95754e85780465c860e4f85f70ae34ed"
+}
